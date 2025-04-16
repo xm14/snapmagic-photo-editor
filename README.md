@@ -1,0 +1,1 @@
+# snapmagic-photo-editor
