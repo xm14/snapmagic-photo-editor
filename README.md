@@ -1,24 +1,30 @@
-# **[SnapMagic - Browser Photo Editor](https://xm14.github.io/snapmagic-photo-editor/)**
+# SnapMagic
 
-**SnapMagic** is a lightweight, **privacy-focused** web app that lets users take photos directly in the browser and apply fun edits—**no uploads, no storage, just instant creativity!**
+Browser-based photo editor. Take photos directly in the browser and apply edits. No uploads, no server storage. All processing happens client-side.
 
-### **Key Features**  
-- 📸 **In-browser camera capture** (using `getUserMedia`)  
-- 🎨 **Real-time photo manipulations** (background swap, filters, adjustments)  
-- 🔒 **Zero server storage** – all processing happens client-side  
-- 🚀 **Simple & fast** – no signup, no ads  
+## What It Does
 
-### **Tech Stack**  
-- HTML5, CSS3, JavaScript  
-- Canvas API for image processing  
-- (Optional: TensorFlow.js for AI-based background removal)  
+Captures photos using the device camera through `getUserMedia`. Applies real-time manipulations: background replacement, color filters, and adjustments. The image never leaves the device. There is no backend, no storage, no account.
 
-### **Why SnapMagic?**  
-- Perfect for quick meme edits, profile pics, or fun social media content  
-- No privacy concerns—your photos stay on **your device**  
-- Open-source & easy to extend  
+## Features
 
-### **Installation & Usage**  
-1. Clone the repo:  
-   ```bash  
-   git clone https://github.com/xm14/snapmagic-photo-editor.git 
+- In-browser camera capture using `getUserMedia`.
+- Real-time photo manipulation: background swap, filters, adjustments.
+- Zero server storage. All processing client-side.
+- No signup, no ads.
+- Open source.
+
+## Stack
+
+- HTML5
+- CSS3
+- JavaScript
+- Canvas API for image processing
+
+Optional: TensorFlow.js for AI-based background removal.
+
+## Running Locally
+
+```bash
+git clone https://github.com/xm14/snapmagic-photo-editor.git
+cd snapmagic-photo-editor
